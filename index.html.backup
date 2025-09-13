@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ग्रामपंचायत शेणीत - Gram Panchayat Shenit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="images.jpeg" alt="ग्रामपंचायत शेणीत - Gram Panchayat Shenit" class="header-image">
+                <div class="header-text">
+                    <h1 class="main-title">ग्रामपंचायत – शेणीत, ता. इगतपुरी, जि. नाशिक</h1>
+                    <p class="subtitle">Gram Panchayat - Shenit, Tal. Igatpuri, Dist. Nashik</p>
+                </div>
+            </div>
+            <div class="banner-placeholder">
+                <div class="placeholder-content">
+                    <span>ग्रामपंचायत शेणीत</span>
+                    <small>Gram Panchayat Shenit</small>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Officials Section -->
+    <section class="section officials">
+        <div class="container">
+            <h2 class="section-title">पदाधिकारी <small>Officials</small></h2>
+            
+            <div class="officials-photos">
+                <div class="official-photo-card">
+                    <img src="sarpanch.jpeg" alt="सरपंच - Sarpanch" class="official-photo">
+                    <div class="photo-caption">
+                        <h3>सरपंच</h3>
+                        <p class="english">Sarpanch</p>
+                        <p class="name">सौं वैशाली पोपटराव जाधव</p>
+                    </div>
+                </div>
+                
+                <div class="official-photo-card">
+                    <img src="rajaram_laxman.jpeg" alt="उपसरपंच - Upsarpanch" class="official-photo">
+                    <div class="photo-caption">
+                        <h3>उपसरपंच</h3>
+                        <p class="english">Upsarpanch</p>
+                        <p class="name">श्री राजाराम लक्ष्मण जाधव</p>
+                    </div>
+                </div>
+                
+                <div class="official-photo-card">
+                    <img src="pappa.jpeg" alt="ग्रामसेवक - Gram Sevak" class="official-photo">
+                    <div class="photo-caption">
+                        <h3>ग्रामसेवक</h3>
+                        <p class="english">Gram Sevak</p>
+                        <p class="name">श्री संदिपान कचरू नेटके</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="members-section">
+                <h3>सदस्य <small>Members</small></h3>
+                <div class="members-list">
+                    <div class="member-item">1) संजय तानाजी जाधव</div>
+                    <div class="member-item">2) शरद गबाजी तेलोरे</div>
+                    <div class="member-item">3) रवींद्र वाळू पवार</div>
+                    <div class="member-item">4) सौ मनीषा बाळासाहेब वारुंगसे</div>
+                    <div class="member-item">5) श्रीमती संगीता विलास जाधव</div>
+                    <div class="member-item">6) श्रीमती मंदा बाळासाहेब जाधव</div>
+                    <div class="member-item">7) सौ सरला गणपत घारे</div>
+                    <div class="member-item">8) सौ विमल चंदूलाल चव्हाण</div>
+                </div>
+            </div>
+
+            <div class="staff-section">
+                <h3>कर्मचारी <small>Staff</small></h3>
+                <div class="staff-list">
+                    <div class="staff-item">श्री आकाश आबाजी जाधव</div>
+                    <div class="staff-item">श्री पंडित रामभाऊ सूर्यवंशी</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Village Section -->
+    <section class="section about-village">
+        <div class="container">
+            <h2 class="section-title">गावाबद्दल माहिती <small>About the Village</small></h2>
+            
+            <div class="village-content">
+                <div class="village-text">
+                    <p>शेणीत हे नाशिक जिल्ह्यातील इगतपुरी तालुक्यातील एक सुंदर गाव आहे. हे गाव निसर्गाच्या गोदीत वसलेले असून येथील लोक मुख्यत्वे शेती, पशुपालन आणि छोट्या व्यवसायांत गुंतलेले आहेत. गावातील प्राचीन मंदिरे आणि नैसर्गिक सौंदर्य येथील वैशिष्ट्य आहे.</p>
+                    <p class="english">Shenit is a beautiful village in Igatpuri taluka of Nashik district. Located in the lap of nature, the people here are mainly engaged in agriculture, animal husbandry and small businesses. Ancient temples and natural beauty are the features of this village.</p>
+                </div>
+                
+                <div class="village-photo">
+                    <a href="https://drive.google.com/file/d/1ae84Zl4H9ovZX4Jmc_HzCI4R9XDR6R-y/view?usp=sharing" 
+                    target="_blank" class="village-photo-link">
+                        <div class="placeholder-content">
+                            <span>गावाचे दृश्य</span>
+                            <small>Village View</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Work Section -->
+    <section class="section development-work">
+        <div class="container">
+            <h2 class="section-title">विकास कामे <small>Development Work</small></h2>
+            
+            <div class="development-grid">
+                <!-- Card 1 -->
+                <a href="https://drive.google.com/file/d/1prhnj3TvVRYobjnt8EZMs_tULbyKJIGo/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('1.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामपंचायत मार्फत कुपोषण निर्मूलन करणेसाठी अंगणवाडीस आवश्यक साहित्य, पोषण आहार वाटप, VCDC उपक्रम राबवून गाव कुपोषण मुक्त केले.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 2 -->
+                <a href="https://drive.google.com/file/d/1zm0ogyEQyHPGoxDn9dZO84nB6YtBTWKE/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('2.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>गावचे सर्व निर्णय ग्रामसभे द्वारेच घेतले जातात.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 3 -->
+                <a href="https://drive.google.com/file/d/1685Va1QAOCTod8r2CDcDu590rZfATC5u/view?usp=sharing" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('3.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>मुलांमधील विविध सुप्त गुणांना वाव मिळण्यासाठी ग्रामपंचायत मार्फत वेळोवेळी विविध स्पर्धा घेतल्या जातात.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 4 -->
+                <a href="https://drive.google.com/file/d/1BasdONSbCYyR93g4AiaseksTdSXchGEk/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('4.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामविकासासाठी लोकप्रतिनिधी मार्फत विविध योजना राबविल्या जातात.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 5 -->
+                <a href="https://drive.google.com/file/d/1zRunOH7vdEmUN2QssZi1Bjq-4noEeL-K/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('5.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामविकासात महिलांचा सक्रिय सहभाग घेतला जातो.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 6 -->
+                <a href="https://drive.google.com/file/d/1i3cxz4VDul2su8XTJ1PL-r8kagJ-941m/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('6.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>१५ वा वित्त आयोग तसेच ग्रामपंचायत स्वनिधी मधून स्मशानभूमी परिसर विकास व दशक्रिया विधी शेडची कामे पूर्ण करण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 7 -->
+                <a href="https://drive.google.com/file/d/1Q5Ig4DcUQSGJjwLjF5NFdB2xI7ZDon67/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('7.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>लोकसहभाग तसेच कंपनी CSR निधी मधून अंगणवाडी, मंदिरांसारखी कोटीपेक्षा जास्त रकमेची महत्वाची कामे पूर्ण करण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 8 -->
+                <a href="https://drive.google.com/file/d/1E8RvVESjBnHBd0TwjNWYg25snoTlw2Zh/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('8.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>संपूर्ण गावठाण हद्दीत संरक्षित विद्युतीकरण तसेच गावाला जोडणाऱ्या सर्व रस्त्यांवर LED पथदीप व्यवस्था केली आहे.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 9 -->
+                <a href="https://drive.google.com/file/d/18SDVxj-ZrN4Jj3xzfI1yIWNHWK5SWuMR/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('9.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>शेणीत गावातील सर्व रस्ते विविध योजना निधी मधून सिमेंट-कॉंक्रिटचे पक्के रस्ते करण्यात आले आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 10 -->
+                <a href="https://drive.google.com/file/d/1KNaDAgKd1qT-DRBrA8TD472NrNcRX-r9/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('10.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामपंचायतीने समाजकल्याण विभाग तसेच आदिवासी विकास विभागाच्या योजना वापरून आदिवासी वस्ती व राजवाडा विभागात विविध विकास कामे केली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 11 -->
+                <a href="https://drive.google.com/file/d/10yLAY5DdBmnN6Ntq1vDMV5c0dnccYkDL/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('11.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>गावातील बेघर कुटुंबांसाठी प्रधानमंत्री, रमाई, शबरी, मोदी आवास यांसारख्या शासन योजनांमधून गरजूना पक्की घरे उपलब्ध करून देण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 12 -->
+                <a href="https://drive.google.com/file/d/136_TEOx0NjvKoYJDt1OoYtDd_IgOp_eg/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('12.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>नळाद्वारे गावातील प्रत्येक घरापर्यंत पिण्याचे शुद्ध पाणी पुरवठा व्यवस्था करण्यात आली आहे.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 13 -->
+                <a href="https://drive.google.com/file/d/1Lio_eM5_Qeg9hE_rClVNkL4rJosNOx3H/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('13.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामपंचायत मार्फत विविध योजनांमधून सांडपाणी व्यवस्थापनासाठी संपूर्ण गावात भूमिगत गटार तसेच शोषखड्ड्यांची व्यवस्था करण्यात आली आहे.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 14 -->
+                <a href="https://drive.google.com/file/d/1iHrLJVpBOF2B_VIf8ZjJ7AWP2iq1Vikr/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('14.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>गावात प्रति व्यक्ती एक झाड याप्रमाणे झाडे लावण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 15 -->
+                <a href="https://drive.google.com/file/d/1NuDI-QFMltjrt4hdUxysTDF-Wl0FrWNO/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('15.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>प्रति व्यक्ती एक झाड मोहिमे अंतर्गत गावातील सर्व विद्यार्थी तसेच सर्व कुटुंबांना फळझाडांची रोपे वाटप करण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 16 -->
+                <a href="https://drive.google.com/file/d/1H9R8YPUh71PEkkI89NNqYoSRevE8XVxO/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('16.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>गावात प्रति व्यक्ती एक झाड याप्रमाणे झाडे लावण्यात आली आहेत.</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 17 - Pappa -->
+                <a href="https://drive.google.com/file/d/1z18Zxl0n-uqsF8c3ilWqAPGGqGb-Cghv/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('pappa.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>ग्रामसेवक - श्री संदिपान कचरू नेटके</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 18 - Rajaram Laxman -->
+                <a href="https://drive.google.com/file/d/1GDQ6CXEsdS2pwF1hVwy3p8My1bs29EZF/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('rajaram_laxman.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>उपसरपंच - श्री राजाराम लक्ष्मण जाधव</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Card 19 - Sarpanch -->
+                <a href="https://drive.google.com/file/d/1ycK8m_2Hd0Z-PdnAqHi7XUVyZu1Xmw09/view?usp=drive_link" target="_blank" class="work-item-link">
+                    <div class="work-item">
+                        <div class="work-photo" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('sarpanch.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                        </div>
+                        <div class="work-content">
+                            <p>सरपंच - सौं वैशाली पोपटराव जाधव</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Model Panchayat Table Section -->
+    <section class="section model-table">
+        <div class="container">
+            <h2 class="section-title">आदर्श तक्ता <small>Model Panchayat Table</small></h2>
+            
+            <div class="table-container">
+                <table class="panchayat-table">
+                    <thead>
+                        <tr>
+                            <th>शिक्षण <small>Education</small></th>
+                            <th>आरोग्य <small>Health</small></th>
+                            <th>स्वच्छता <small>Sanitation</small></th>
+                            <th>रस्ते <small>Roads</small></th>
+                            <th>पाणी <small>Water</small></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>प्राथमिक शाळा सुधारणा <small>Primary School Improvement</small></td>
+                            <td>आरोग्य केंद्र निर्माण <small>Health Center Construction</small></td>
+                            <td>स्वच्छता अभियान सुरू <small>Cleanliness Drive Started</small></td>
+                            <td>मुख्य रस्ता दुरुस्ती <small>Main Road Repair</small></td>
+                            <td>पाणीपुरवठा योजना <small>Water Supply Scheme</small></td>
+                        </tr>
+                        <tr>
+                            <td>कंप्युटर प्रयोगशाळा <small>Computer Lab</small></td>
+                            <td>आंबुलन्स सेवा <small>Ambulance Service</small></td>
+                            <td>कचरा व्यवस्थापन <small>Waste Management</small></td>
+                            <td>ग्रामीण रस्ते <small>Rural Roads</small></td>
+                            <td>बोरवेल योजना <small>Borewell Scheme</small></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education">
+        <div class="container">
+            <h2 class="section-title">शिक्षण संस्था <small>Educational Institutions</small></h2>
+            
+            <div class="education-content">
+                <div class="school-info">
+                    <h3>जिल्हा परिषद प्राथमिक शाळा शेणीत</h3>
+                    <p class="english">Zilla Parishad Primary School Shenit</p>
+                    
+                    <div class="school-details">
+                        <p><strong>सुविधा:</strong> आधुनिक क्लासरूम, कंप्युटर प्रयोगशाळा, खेळाचे मैदान, पुस्तकालय</p>
+                        <p class="english"><strong>Facilities:</strong> Modern classrooms, computer lab, playground, library</p>
+                        
+                        <p><strong>विद्यार्थी संख्या:</strong> १५०+ विद्यार्थी</p>
+                        <p class="english"><strong>Student Strength:</strong> 150+ students</p>
+                        
+                        <p><strong>शिक्षक:</strong> ८ शिक्षक</p>
+                        <p class="english"><strong>Teachers:</strong> 8 teachers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact">
+        <div class="container">
+            <h2 class="section-title">संपर्क <small>Contact</small></h2>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>पत्ता <small>Address</small></h3>
+                    <p>ग्रामपंचायत शेणीत, ता. इगतपुरी, जि. नाशिक</p>
+                    <p class="english">Gram Panchayat Shenit, Tal. Igatpuri, Dist. Nashik</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>दूरध्वनी <small>Phone</small></h3>
+                    <p>+91-94035 15385</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>ईमेल <small>Email</small></h3>
+                    <p>grampanchayat.shenit@gmail.com</p>
+                </div>
+                
+                <div class="contact-item">
+                    <h3>स्थान <small>Location</small></h3>
+                    <a href="https://maps.app.goo.gl/FPz8CMEBUffErG1d9" class="maps-link">Google Maps वर पहा <small>View on Google Maps</small></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 ग्रामपंचायत शेणीत | Developed for Public Service</p>
+        </div>
+    </footer>
+
+    <script>
+        // Slideshow functionality
+        function initSlideshow() {
+            const slides = document.querySelectorAll('.slideshow-slide');
+            const texts = document.querySelectorAll('.slideshow-text');
+            let currentSlide = 0;
+            
+            function showSlide(index) {
+                // Hide all slides and texts
+                slides.forEach(slide => slide.classList.remove('active'));
+                texts.forEach(text => text.classList.remove('active'));
+                
+                // Show current slide and text
+                slides[index].classList.add('active');
+                texts[index].classList.add('active');
+            }
+            
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+            
+            // Start slideshow
+            showSlide(0);
+            setInterval(nextSlide, 5000); // Change every 5 seconds
+        }
+        
+        // Initialize slideshow when page loads
+        document.addEventListener('DOMContentLoaded', initSlideshow);
+    </script>
+</body>
+</html>

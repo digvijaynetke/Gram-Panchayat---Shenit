@@ -1,0 +1,757 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #2c5530;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.english {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    color: white;
+    padding: 40px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.header-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    flex-shrink: 0;
+}
+
+.header-text {
+    flex: 1;
+    text-align: left;
+}
+
+.main-title {
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+    color: #e8f5e8;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.banner-placeholder {
+    background: linear-gradient(45deg, #8b4513, #a0522d);
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.placeholder-content {
+    text-align: center;
+    color: white;
+}
+
+.placeholder-content span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.placeholder-content small {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.section:nth-child(even) {
+    background-color: #f0f8f0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c5530;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #ff6b35, #f7931e);
+    margin: 15px auto;
+    border-radius: 2px;
+}
+
+/* Officials Section */
+.officials-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.official-photo-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    overflow: hidden;
+    border-left: 5px solid #ff6b35;
+    transition: all 0.3s ease;
+    position: relative;
+    height: 300px;
+    cursor: pointer;
+}
+
+.official-photo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+
+.official-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.official-photo-card:hover .official-photo {
+    transform: scale(1.05);
+}
+
+.photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.official-photo-card:hover .photo-caption {
+    background: rgba(0,0,0,0.9);
+    padding: 30px 20px;
+}
+
+.photo-caption h3 {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.photo-caption .english {
+    color: #e8f5e8;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.photo-caption .name {
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Mobile touch effect */
+@media (max-width: 768px) {
+    .official-photo-card:active {
+        transform: translateY(-5px);
+    }
+    
+    .official-photo-card:active .photo-caption {
+        background: rgba(0,0,0,0.9);
+        padding: 30px 20px;
+    }
+    
+    .official-photo-card:active .official-photo {
+        transform: scale(1.05);
+    }
+    
+    .village-photo:active {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    }
+    
+    .work-item-link:active .work-item {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    
+    .work-item-link:active .work-photo {
+        transform: scale(1.02);
+    }
+}
+
+.members-section, .staff-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.members-section h3, .staff-section h3 {
+    color: #2c5530;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.members-list, .staff-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.member-item, .staff-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #4a7c59;
+    font-size: 1rem;
+}
+
+/* About Village Section */
+.village-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.village-text {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.village-photo {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('shenit.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.village-photo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.village-photo-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.village-photo-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Development Work Section */
+.development-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.work-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.work-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.work-item-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.work-item-link:hover .work-item {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.work-item-link:hover .work-photo {
+    transform: scale(1.05);
+}
+
+.work-item-link:hover .work-content {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.work-photo {
+    background: linear-gradient(45deg, #4a7c59, #6b8e6b);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Water Supply Project */
+.work-item:nth-child(1) .work-photo {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('PUNE-WATER-SUPPLY.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Road Repair Project */
+.work-item:nth-child(2) .work-photo {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('road.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Cleanliness Drive Project */
+.work-item:nth-child(3) .work-photo {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('swachta_abhiyan.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Education Facilities Project */
+.work-item:nth-child(4) .work-photo {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('education.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.work-content {
+    padding: 20px;
+    background: white;
+}
+
+.work-content p {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Slideshow Styles */
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow-slide.active {
+    opacity: 1;
+}
+
+.slideshow-text {
+    display: none;
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.slideshow-text.active {
+    display: block;
+}
+
+/* Slideshow Animation */
+@keyframes slideshow {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.slideshow-slide {
+    animation: slideshow 15s infinite;
+}
+
+.slideshow-slide:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slideshow-slide:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slideshow-slide:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.slideshow-text {
+    animation: slideshow 15s infinite;
+}
+
+.slideshow-text:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slideshow-text:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.slideshow-text:nth-child(3) {
+    animation-delay: 10s;
+}
+
+/* Model Table Section */
+.table-container {
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.panchayat-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.panchayat-table th,
+.panchayat-table td {
+    padding: 15px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.panchayat-table th {
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.panchayat-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.panchayat-table td {
+    vertical-align: top;
+}
+
+/* Education Section */
+.education-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.school-info h3 {
+    color: #2c5530;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.school-details {
+    margin-top: 20px;
+}
+
+.school-details p {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border-left: 4px solid #ff6b35;
+}
+
+/* Contact Section */
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.contact-item {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.contact-item h3 {
+    color: #2c5530;
+    margin-bottom: 15px;
+}
+
+.contact-item p {
+    word-break: break-all;
+    hyphens: auto;
+    max-width: 100%;
+}
+
+.maps-link {
+    color: #ff6b35;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ff6b35;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.maps-link:hover {
+    background: #ff6b35;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .header-text {
+        text-align: center;
+    }
+    
+    .header-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .banner-placeholder {
+        height: 150px;
+    }
+    
+    .official-photo-card {
+        height: 250px;
+    }
+    
+    .village-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .village-photo {
+        height: 200px;
+    }
+    
+    .officials-photos {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .official-photo {
+        height: 180px;
+    }
+    
+    .development-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .members-list, .staff-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .panchayat-table {
+        font-size: 0.9rem;
+    }
+    
+    .panchayat-table th,
+    .panchayat-table td {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-image {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .main-title {
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .section {
+        padding: 30px 0;
+    }
+    
+    .banner-placeholder {
+        height: 120px;
+    }
+    
+    .official-photo-card {
+        height: 250px;
+    }
+    
+    .placeholder-content span {
+        font-size: 1.2rem;
+    }
+    
+    .placeholder-content small {
+        font-size: 0.9rem;
+    }
+    
+    .official-card, .members-section, .staff-section, .village-text, .education-content, .contact-item {
+        padding: 20px;
+    }
+    
+    .panchayat-table {
+        font-size: 0.8rem;
+    }
+    
+    .panchayat-table th,
+    .panchayat-table td {
+        padding: 8px 3px;
+    }
+}
