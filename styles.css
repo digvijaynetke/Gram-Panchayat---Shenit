@@ -607,6 +607,205 @@ p {
     color: white;
 }
 
+/* About Village Poem Section */
+.about-village-poem {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.village-poem-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.poem-text {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.poem-text h3 {
+    color: #2c5530;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.poem-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.poem-ending {
+    font-style: italic;
+    font-weight: bold;
+    color: #2c5530;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.village-images {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.side-by-side-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.image-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: translateY(-5px);
+}
+
+.village-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.full-width-image-container {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.full-width-image-container:hover {
+    transform: translateY(-5px);
+}
+
+.full-width-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.image-caption h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+/* Floating Video Styles */
+.floating-video {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.floating-video:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.video-header {
+    background: linear-gradient(135deg, #2c5530, #4a7c59);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.close-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-controls {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.control-btn {
+    background: #2c5530;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.control-btn:hover {
+    background: #4a7c59;
+    transform: translateY(-2px);
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(135deg, #2c5530, #4a7c59);
@@ -669,6 +868,45 @@ p {
     .village-content {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    
+    .side-by-side-images {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .village-image {
+        height: 250px;
+    }
+    
+    .full-width-image {
+        height: 300px;
+    }
+    
+    .image-caption h4 {
+        font-size: 1.2rem;
+    }
+    
+    .poem-text {
+        padding: 25px;
+    }
+    
+    .poem-text h3 {
+        font-size: 1.5rem;
+    }
+    
+    .poem-text p {
+        font-size: 1rem;
+    }
+    
+    .floating-video {
+        width: 300px;
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .video-container {
+        height: 170px;
     }
     
     .village-photo {
@@ -736,6 +974,63 @@ p {
     
     .placeholder-content span {
         font-size: 1.2rem;
+    }
+    
+    .side-by-side-images {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .village-image {
+        height: 200px;
+    }
+    
+    .full-width-image {
+        height: 250px;
+    }
+    
+    .image-caption h4 {
+        font-size: 1rem;
+        padding: 20px;
+    }
+    
+    .poem-text {
+        padding: 20px;
+    }
+    
+    .poem-text h3 {
+        font-size: 1.3rem;
+    }
+    
+    .poem-text p {
+        font-size: 0.9rem;
+    }
+    
+    .floating-video {
+        width: 280px;
+        bottom: 5px;
+        right: 5px;
+    }
+    
+    .video-container {
+        height: 150px;
+    }
+    
+    .video-header {
+        padding: 10px 15px;
+    }
+    
+    .video-title {
+        font-size: 1rem;
+    }
+    
+    .video-controls {
+        padding: 10px 15px;
+    }
+    
+    .control-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
     }
     
     .placeholder-content small {
