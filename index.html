@@ -2,8 +2,9 @@
 <html lang="mr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ग्रामपंचायत शेणीत - Gram Panchayat Shenit</title>
+    <link rel="icon" type="image/svg+xml" href="images.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ग्रामपंचायत शेणीत</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <img src="images.jpeg" alt="ग्रामपंचायत शेणीत - Gram Panchayat Shenit" class="header-image">
+                <img src="images.png" alt="ग्रामपंचायत शेणीत - Gram Panchayat Shenit" class="header-image">
                 <div class="header-text">
                     <h1 class="main-title">ग्रामपंचायत – शेणीत, ता. इगतपुरी, जि. नाशिक</h1>
                     <p class="subtitle">Gram Panchayat - Shenit, Tal. Igatpuri, Dist. Nashik</p>
@@ -26,6 +27,7 @@
         </div>
     </header>
 
+   
     <!-- Officials Section -->
     <section class="section officials">
         <div class="container">
@@ -390,6 +392,23 @@
         </div>
     </div>
 </section>
+ <!-- QR Payment Section -->
+    <section class="section qr-payment">
+        <div class="container">
+            <div class="qr-card">
+                <div class="qr-header">
+                    <h2>QR पेमेंट</h2>
+                    <p>QR कोड स्कॅन करून पेमेंट करा</p>
+                </div>
+                <div class="qr-body">
+                    <div class="qr-frame">
+                        <img src="QR.png" alt="QR payment code" class="qr-image">
+                    </div>
+                    <p class="qr-note">No QR codes available</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- Contact Section -->
@@ -528,6 +547,26 @@
         
         // Initialize floating video when page loads
         document.addEventListener('DOMContentLoaded', initFloatingVideo);
+
+        // QR image fullscreen on click
+        function initQrFullscreen() {
+            const qrImage = document.querySelector('.qr-image');
+            if (!qrImage) {
+                return;
+            }
+
+            qrImage.addEventListener('click', function() {
+                if (qrImage.requestFullscreen) {
+                    qrImage.requestFullscreen();
+                } else if (qrImage.webkitRequestFullscreen) {
+                    qrImage.webkitRequestFullscreen();
+                } else if (qrImage.msRequestFullscreen) {
+                    qrImage.msRequestFullscreen();
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', initQrFullscreen);
     </script>
 </body>
 </html>
